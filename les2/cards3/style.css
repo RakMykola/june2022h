@@ -1,0 +1,33 @@
+body{
+    background-color: #08bdd4;
+}
+.card1{
+    display: flex;
+    width: 450px;
+    /*height: 100px;*/
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contCard1{
+    display: flex;
+}
+.icon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.title{
+    margin: 10px;
+}
+
+.title > h3 {
+    color: #ff9628;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
