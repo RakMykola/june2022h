@@ -1,0 +1,98 @@
+.a{
+    width: 1027px;
+    height: 200px;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.b{
+    width: 800px;
+    height: 600px;
+    background-color: darkgrey;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
+.block{
+    width: 260px;
+    height: 200px;
+    background-color: darkgrey;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.f{
+    width: 217px;
+    height: 810px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1063px){
+    .a,.f{
+        width: auto;
+        height: 100px;
+        background-color: darkgrey;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .b{
+        width: auto;
+        height: 200px;
+        background-color: darkgrey;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+
+    }
+  .cde{
+      justify-content: space-around;
+  }
+    .block{
+        width: 100px;
+        height: 100px;
+        background-color: darkgrey;
+        /*margin: 10px 10px 10px 0;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .bcdef{
+        display: block;
+    }
+
+}
+
