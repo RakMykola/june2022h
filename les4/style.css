@@ -27,8 +27,6 @@ h1 {
 display: flex;
     justify-content: center;
     text-align: center;
-    /*line-height: 200px;*/
-    /*text-align: center;*/
 
 }
 .h{
@@ -46,9 +44,51 @@ display: flex;
 
 
 
-/*@media screen and (max-width: 1063px){*/
-/*    .a{*/
-/*        width: 500px;*/
-/*        height: 500px;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 1063px){
+    .a{
+        width: auto;
+        height: 200px;
+        background-color: darkgrey;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .block{
+        width: 100px;
+        height: 100px;
+        background-color: darkgrey;
+        /*margin: 10px 10px 10px 0;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .smalAndH{
+        display: block;
+    }
+
+    .h{
+        width: auto;
+        height: 400px;
+        background-color: darkgrey;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .bcd, .efg{
+        justify-content: space-around;
+    }
+}
