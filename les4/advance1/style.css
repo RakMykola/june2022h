@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.bathProducts{
+    margin-top: 10px;
+}
+
 .logo{
 width: 200px;
 height: 100px;
@@ -49,13 +53,83 @@ height: 100px;
 }
 .bath{
     width: 550px;
-    height: 600px;
+    height: 510px;
     background-color: darkgrey;
     margin-right: 10px;
 }
 
+
 .products{
     width: 240px;
-    height: 600px;
+    height: 510px;
     background-color: darkgrey;
+}
+
+.footer{
+    width: 1010px;
+    height: 200px;
+    background-color: darkgrey;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 1063px){
+    .logo {
+        margin: 0;
+    }
+
+    .nav_tools,.intro_products,.store_tools{
+        display:contents;
+    }
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+
+    .nav{
+        width: 100%;
+        height: 100px;
+        background-color: darkgrey;
+        margin-bottom: 10px;
+    }
+
+    .store_tools{
+        display: flex;
+    }
+    .store{
+        order: 1;
+        width: 50%;
+    }
+    .tools{
+        order: 2;
+        width: 50%;
+    }
+
+    .intro{
+        width: 80%;
+    }
+    .ad{
+        width: 20%;
+    }
+.bathProducts{
+    flex-direction: column;
+}
+
+    .bath{
+        width: 100%;
+    }
+    .products{
+        width: 100%;
+        height:250px ;
+        margin-top: 10px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 150px;
+    }
+
 }
