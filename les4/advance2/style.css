@@ -102,9 +102,50 @@
     height: 100px;
     border-top:solid black 5px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.block_footer{
+.block_footer1{
+width:100% ;
+    height: 20px;
+    background-color: grey;
+}
+.block_footer2{
+width:20% ;
+    height: 20px;
+    background-color: grey;
+    margin-top: 10px;
+}
 
+
+@media screen and (max-width: 1000px){
+    .leftBar{
+        display: none;
+    }
+
+    .block4{
+        height: 400px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .bath{
+        width: 40%;
+        height: 40%;
+    }
+
+    .block5and6{
+        display: block;
+        flex-direction: column;
+    }
+
+    .block5{
+        width: 100%;
+        /*height: 400px;*/
+
+    }
 }
