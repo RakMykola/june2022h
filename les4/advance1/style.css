@@ -3,6 +3,12 @@
     display: flex;
 }
 
+.textCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e17e7f;
+}
 .bathProducts{
     margin-top: 10px;
 }
@@ -10,51 +16,51 @@
 .logo{
 width: 200px;
 height: 100px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-right: 10px;
 }
 .header{
 width: 800px;
 height: 100px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-bottom: 10px;
 }
 
 .nav{
     width: 200px;
     height: 600px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-right: 10px;
 }
 .intro{
     width: 550px;
     height: 300px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-right: 10px;
 }
 .ad{
     width: 240px;
     height: 300px;
-    background-color: darkgrey;
+    background-color: #686868;
 }
 
 .store{
     width: 200px;
     height: 100px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-top: 10px;
 }
 
 .tools{
     width: 200px;
     height: 100px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-top: 10px;
 }
 .bath{
     width: 550px;
     height: 510px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-right: 10px;
 }
 
@@ -62,13 +68,13 @@ height: 100px;
 .products{
     width: 240px;
     height: 510px;
-    background-color: darkgrey;
+    background-color: #686868;
 }
 
 .footer{
     width: 1010px;
     height: 200px;
-    background-color: darkgrey;
+    background-color: #686868;
     margin-top: 10px;
 }
 
@@ -77,9 +83,10 @@ height: 100px;
 @media screen and (max-width: 1063px){
     .logo {
         margin: 0;
+        border-right: solid gray 2px;
     }
 
-    .nav_tools,.intro_products,.store_tools{
+    .nav_tools,.intro_products{
         display:contents;
     }
 
@@ -92,16 +99,17 @@ height: 100px;
     .nav{
         width: 100%;
         height: 100px;
-        background-color: darkgrey;
+        background-color: #686868;
         margin-bottom: 10px;
     }
 
     .store_tools{
-        display: flex;
+flex-direction: row;
     }
     .store{
         order: 1;
         width: 50%;
+        margin-right: 10px;
     }
     .tools{
         order: 2;
@@ -131,5 +139,8 @@ height: 100px;
         width: 100%;
         height: 150px;
     }
-
+    .store_tools{
+        order: 2;
+        display: flex;
+    }
 }
